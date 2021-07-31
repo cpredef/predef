@@ -24,7 +24,7 @@ Type|Macro|Description
 Identification|`__amd64__`<br/>`__amd64`<br/>`__x86_64__`<br/>`__x86_64`<br/>|Defined by GNU C and Sun Studio
 Identification|_M_X64<br/>`_M_AMD64`|Defined by Visual Studio
 
-Notice that [x32](http://en.wikipedia.org/wiki/X32_ABI) can be detected by checking if the CPU uses the [ILP32 data model](DataModels).
+Notice that [x32](http://en.wikipedia.org/wiki/X32_ABI) can be detected by checking if the CPU uses the [ILP32 data model](DataModels.md).
 
 ## [ARM](http://en.wikipedia.org/wiki/ARM_architecture) ##
 

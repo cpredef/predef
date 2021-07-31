@@ -2,17 +2,17 @@
 
 The macros are found here:
 
-* [Standards](Standards)
-* [Compilers](Compilers)
-* [Libraries](Libraries)
-* [Operating systems](OperatingSystems)
-* [Architectures](Architectures)
+* [Standards](Standards.md)
+* [Compilers](Compilers.md)
+* [Libraries](Libraries.md)
+* [Operating systems](OperatingSystems.md)
+* [Architectures](Architectures.md)
 
 General guidelines are found here:
 
-* [Version normalization](VersionNormalization)
-* [Feature macros](FeatureMacros)
-* [Endianness](Endianness)
+* [Version normalization](VersionNormalization.md)
+* [Feature macros](FeatureMacros.md)
+* [Endianness](Endianness.md)
 
 Please send updates/corrections to [predef-contribute](mailto:predef-contribute@lists.sourceforge.net).
 
