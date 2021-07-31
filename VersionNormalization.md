@@ -2,7 +2,7 @@
 
 The pre-defined macros specify version numbering in different ways, which makes it annoying to check for specific compiler versions. In this case you can normalize the version number of the different compilers. For example:
 
-:::c
+```c
 /* Version is 0xVVRRPPPP */
 #define PREDEF_VERSION(v,r,p) (((v) << 24) + ((r) << 16) + (p))
 
@@ -23,10 +23,12 @@ The pre-defined macros specify version numbering in different ways, which makes 
 # define PREDEF_COMPILER_MSC CDETECT_MKVER(_MSC_VER / 100, _MSC_VER % 100, 0)
 # endif
 #endif
+```
 
 This can then be used like this:
 
-:::c
+```c
 #if defined(PREDEF_COMPILER_GNUC) && (PREDEF_COMPILER_GNUC >= PREDEF_VERSION(4, 6, 0))
 /* GNU C/C++ compiler version 4.6.0 or newer */
 #endif
+```

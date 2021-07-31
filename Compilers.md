@@ -309,7 +309,7 @@ GNU C/C++|`__GNUC__`|`__GNUC_MINOR__`|`__GNUC_PATCHLEVEL__`
 
 If you prefer a single version macro, you can define the following yourself.
 
-:::c
+```c
 #if defined(__GNUC__)
 # if defined(__GNUC_PATCHLEVEL__)
 # define __GNUC_VERSION__ (__GNUC__ * 10000 \
@@ -320,6 +320,7 @@ If you prefer a single version macro, you can define the following yourself.
 + __GNUC_MINOR__ * 100)
 # endif
 #endif
+```
 
 The format of this new macro is:
 
@@ -441,7 +442,7 @@ Version|`__IBMC__`<br/>`__IBMCPP__`|NVRRM|N = Product (0 = C/370, 1 = MVS, 2 = O
 
 Notice that XL C/C++ also defines `__IBMC__` and `__IBMCPP__` macros, but with a different syntax. You can use `__xlC__` (only defined for XL C/C++) or `__COMPILER_VER__` (only defined for z/OS XL C/C++) to distinguish between the two. Alternatively, the macro identifying z/OS (`__MVS__`) can be used to distinguish between them.
 
-:::c
+```c
 #if defined(__IBMC__) || defined(__IBMCPP__)
 # if defined(__COMPILER_VER__)
 /* z/OS XL C/C++ so __IBMC__ is defined as NVRRM */
@@ -449,6 +450,7 @@ Notice that XL C/C++ also defines `__IBMC__` and `__IBMCPP__` macros, but with a
 /* z/OS XL C/C++ so __IBMC__ is defined as VRM */
 # endif
 #endif
+```
 
 ##### Example #####
 

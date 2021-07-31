@@ -24,19 +24,21 @@ These pages lists various pre-defined compiler macros that can be used to identi
 
 For example, if we want to use a generic or opaque pointer type, we use void pointers. However, ancient K&R compilers (from the time before the first ANSI C standard) do not support void pointers. Instead we can define our own type:
 
-:::c
+```c
 #if defined(__STDC__) || defined(__cplusplus) || defined(_MSC_EXTENSIONS)
 typedef void * t_pointer;
 #else
 typedef char * t_pointer;
 #endif
+```
 
 Another example, Microsoft Visual C++ version 4.2 added a pragma to reduce compilation times by only including a file once (if <code>_MSC_VER</code> is not defined then it will evaluate to 0 (zero) — however, some compilers may complain about an undefined macro)
 
-:::c
+```c
 #if defined(_MSC_VER) && (_MSC_VER >= 1020)
 #pragma once
 #endif
+```
 
 The macros contained in these pages have been obtained through vendor documentation, the [defines script](http://predef.sourceforge.net/defines.txt), contributors, and third-party source code. No guarantee about the correctness of the macros is given.
 

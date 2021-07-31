@@ -416,7 +416,7 @@ Version|`__'System'_'Version'`|System = `uname -s`<br/>Version = `uname -r`<br/>
 
 Use the SVR4 macros to distinguish between Solaris and SunOS.
 
-:::c
+```c
 #if defined(sun) || defined(__sun)
 # if defined(__SVR4) || defined(__svr4__)
 /* Solaris */
@@ -424,6 +424,7 @@ Use the SVR4 macros to distinguish between Solaris and SunOS.
 /* SunOS */
 # endif
 #endif
+```
 
 ##### Example #####
 

@@ -22,7 +22,7 @@ C94|`__STDC_VERSION__` = 199409L|ISO/IEC 9899-1:1994
 
 ##### Example: C Standards #####
 
-:::c
+```c
 #if defined(__STDC__)
 # define PREDEF_STANDARD_C_1989
 # if defined(__STDC_VERSION__)
@@ -34,6 +34,7 @@ C94|`__STDC_VERSION__` = 199409L|ISO/IEC 9899-1:1994
 # endif
 # endif
 #endif
+```
 
 Notice that not all compliant compilers provides the correct pre-defined macros. For example, Microsoft Visual C++ does not define `__STDC__`, or Sun Workshop 4.2 supports C94 without setting `__STDC_VERSION__` to the proper value. Extra checks for such compilers must be added.
 
@@ -43,11 +44,12 @@ Notice that some compilers, such as the [HP aC++](http://h21007.www2.hp.com/port
 
 In continuation of the above example, pre-C89 compilers do not recognize certain keywords. Let the preprocessor remove those keywords for those compilers.
 
-:::c
+```c
 #if !defined(PREDEF_STANDARD_C_1989) && !defined(__cplusplus)
 # define const
 # define volatile
 #endif
+```
 
 ## Unix Standards ##
 
@@ -76,7 +78,7 @@ LSB|`__LSB_VERSION__` = VR|Linux Standards Base<br/><br/>V = Version<br/>R = Rev
 
 The following examples assumes the definition of these macros.
 
-:::c
+```c
 #if defined(unix) || defined(__unix__) || defined(__unix)
 # define PREDEF_PLATFORM_UNIX
 #endif
@@ -103,5 +105,6 @@ The following examples assumes the definition of these macros.
 # endif
 # endif
 #endif
+```
 
 Notice that not all compliant compilers provides the correct pre-defined macros. For example, IBM xlC supports Unix without setting any of the `__unix__` macros. Extra checks for such compilers must be added.
