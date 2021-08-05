@@ -67,6 +67,8 @@ Identification|`__aarch64__`|Defined by GNU C [1](http://gcc.gnu.org/viewcvs/tru
 Type | Macro | Description
 ---|---|---
 Identification | `__bfin`<br/>`__BFIN__` | Defined by GNU C
+Identification | `__ADSPBLACKFIN__` | Defined by [Analog CrossCore compiler](https://www.analog.com/media/en/dsp-documentation/software-manuals/cces-blackfincompiler-library-manual.pdf)
+Version | `__ADSPBF'V'__` | V = Version<br/>Defined by [Analog CrossCore compiler](https://www.analog.com/media/en/dsp-documentation/software-manuals/cces-blackfincompiler-library-manual.pdf)
 
 ## [Convex](http://en.wikipedia.org/wiki/Convex_Computer) ##
 
