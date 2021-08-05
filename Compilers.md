@@ -1,4 +1,4 @@
-Please send updates/corrections to [predef-contribute](mailto:predef-contribute@lists.sourceforge.net).
+Please send updates/corrections to [predef-contribute](mailto:predef-contribute@lists.sourceforge.net) or through pull requests on GitHub.
 
 ## [ACC](http://en.wikipedia.org/wiki/ACC_%28programming_language%29) ##
 

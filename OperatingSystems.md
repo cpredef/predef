@@ -1,4 +1,4 @@
-Please send updates/corrections to [predef-contribute](mailto:predef-contribute@lists.sourceforge.net).
+Please send updates/corrections to [predef-contribute](mailto:predef-contribute@lists.sourceforge.net) or through pull requests on GitHub.
 
 ## [AIX](http://en.wikipedia.org/wiki/AIX_operating_system) ##
 
