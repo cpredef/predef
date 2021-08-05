@@ -90,7 +90,7 @@ Convex C38xx series|`__convex_c38__`
 ## [Epiphany](http://en.wikipedia.org/wiki/Adapteva) ##
 
 Type|Macro
----|---|---
+---|---
 Identification|`__epiphany__`
 
 ## [HP/PA RISC](http://en.wikipedia.org/wiki/PA-RISC_family) ##
