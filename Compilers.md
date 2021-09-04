@@ -469,20 +469,30 @@ Identification|`__IMAGECRAFT__`
 Type|Macro|Format|Description
 ---|---|---|---
 Identification|`__INTEL_COMPILER`| |
-Identification|`__ICC`| |Obsolete
+Identification|`__ICC`| |
 Identification|`__ECC`| |Obsolete
 Identification|`__ICL`| |
-Version|`__INTEL_COMPILER`|VRP|V = Version<br/>R = Revision<br/>P = Patch
+Version|`__INTEL_COMPILER`|VR|V = Version<br/>R = Revision
+Version|`__INTEL_COMPILER_UPDATE`|P|P = Patch
 Version|`__INTEL_COMPILER_BUILD_DATE`|YYYYMMDD|YYYY = Year<br/>MM = Month<br/>DD = Day
 
 ##### Example #####
 
-Intel C/C++|`__INTEL_COMPILER`|`__INTEL_COMPILER_BUILD_DATE`
----|---|---
-5.0|500|
-6.0|600|
-8.0|800|
-9.0|900|20060222
+Intel C/C++|`__INTEL_COMPILER`/`__ICC`|`__INTEL_COMPILER_UPDATE`|`__INTEL_COMPILER_BUILD_DATE`
+---|---|---|---
+5.0|500||
+6.0|600||
+8.0|800||
+9.0|900||20060222
+13.0.1|1300||20121010
+16.0.3|1600|3|20160415
+17.0.0|1700|0|20160721
+18.0.0|1800|0|20170811
+19.0.0|1900|0|20180804
+19.0.1|1900|0|20181018
+2021.1.2|2021|1|20201208
+2021.2.0|2021|2|20210228
+2021.3.0|2021|3|20210609
 
 ## KAI C++ ##
 
@@ -954,7 +964,7 @@ Identification|`__TINYC__`
 
 Type|Macro|Format|Description
 ---|---|---|---
-Identification|`__TURBOC__`| |
+Identification|`__TURBOC__`| |UPDATE
 Version|`__TURBOC__`|0xVVRR|VV = Version<br/>RR = Revision<br/><br/>This pattern does not apply to the values between 0x295 and 0x400.
 
 ##### Example #####
