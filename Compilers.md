@@ -369,7 +369,7 @@ HP aCC|`__HP_aCC`
 ---|---
 A.01.21|12100
 
-### IAR C/C++ ###
+## IAR C/C++ ##
 
 Type|Macro|Format|Description
 ---|---|---|---
