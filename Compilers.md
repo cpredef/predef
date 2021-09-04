@@ -382,7 +382,7 @@ IAR C/C++|`__VER__`
 ---|---
 3.34|334
 
-##[IBM XL C/C++ (Clang-based versions)](https://www.ibm.com/us-en/marketplace/ibm-c-and-c-plus-plus-compiler-family)##
+## [IBM XL C/C++ (Clang-based versions)](https://www.ibm.com/us-en/marketplace/ibm-c-and-c-plus-plus-compiler-family) ##
 The entry on XL C/C++ has been split into three for clarity. This entry covers the following versions:
 [IBM XL C/C++ for Linux](https://www.ibm.com/support/knowledgecenter/en/SSXVZZ_16.1.1/com.ibm.xlcpp1611.lelinux.doc/compiler_ref/xlmacros.html?sc=SSXVZZ_latest) for little endian distributions version 13.1.1 and later
 [IBM XL C/C++ for AIX](https://www.ibm.com/support/knowledgecenter/en/SSGH3R_16.1.0/com.ibm.xlcpp161.aix.doc/compiler_ref/xlmacros.html?sc=SSGH3R_latest) version 16.1 and later (Clang-based compiler invocation only, see next section for legacy compiler invocation)
