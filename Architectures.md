@@ -256,6 +256,15 @@ Type|Macro
 ---|---
 Identification|`pyr`
 
+## [RISC-V](https://ru.wikipedia.org/wiki/RISC-V) ##
+
+Type|Macro|Description
+---|---|---
+Identification|`__riscv`|
+Identification|`__riscv_xlen` = X|X = 32 for RV32 or 64 for RV64
+
+More info on [official toolchain convention](https://github.com/riscv/riscv-toolchain-conventions#cc-preprocessor-definitions).
+
 ## [RS/6000](http://en.wikipedia.org/wiki/RS/6000) ##
 
 Type|Macro|Description
