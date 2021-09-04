@@ -552,6 +552,22 @@ Identification|`__llvm__`
 
 The Clang compiler has an expectation that it operates in conjunction with the LLVM compiler, so the Clang compiler defines `__llvm__` too. IBM XL C/C++ (Clang-based versions) use Clang infrastructure, so IBM XL C/C++ for Linux versions 13.1.1 to 16.1 also define `__llvm__`. Starting from version 16.1.1, [IBM XL C/C++ for Linux](https://www.ibm.com/support/knowledgecenter/en/SSXVZZ_16.1.1/com.ibm.xlcpp1611.lelinux.doc/compiler_ref/xlmacros.html?sc=SSXVZZ_latest) no longer defines `__llvm__`.
 
+## [MCST lcc](http://mcst.ru/lcc) ##
+
+Type|Macro|Format|Description
+---|---|---|---
+Identification|`__LCC__`||
+Identification|`__MCST__`||From 1.25
+Version|`__LCC__`|VRR|V = Version<br/>R = Revision
+Version|`__LCC_MINOR__`|P|P = Patch
+
+##### Example #####
+
+MCST lcc|`__LCC__`|`__LCC_MINOR__`
+---|---|---
+1.25.19|125|19
+1.26.04|126|4
+
 ## MetaWare High C/C++ ##
 
 Type|Macro
