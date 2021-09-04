@@ -561,6 +561,8 @@ Identification|`__MCST__`||From 1.25
 Version|`__LCC__`|VRR|V = Version<br/>R = Revision
 Version|`__LCC_MINOR__`|P|P = Patch
 
+Not to be confused with [LCC](#lcc). MCST lcc compiler uses [Edison Design Group C++ frontend](#edg-c-frontend), so `__EDG__` is also expected to be defined.
+
 ##### Example #####
 
 MCST lcc|`__LCC__`|`__LCC_MINOR__`
