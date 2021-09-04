@@ -87,6 +87,24 @@ Convex C32xx series|`__convex_c32__`
 Convex C34xx series|`__convex_c34__`
 Convex C38xx series|`__convex_c38__`
 
+## [Elbrus](https://en.wikipedia.org/wiki/Elbrus_2000) ##
+
+Type|Macro|Description
+---|---|---
+Identification|`__e2k__`|Defined by MCST lcc
+Version|`__iset__` = V|V = Version
+Version|`__elbrus_V__`|V = CPU model
+
+##### Example #####
+
+CPU|Macro
+---|---
+Elbrus 1C+|`__elbrus_1cplus__`
+Elbrus 8C|`__elbrus_8c__`
+Elbrus 2C3|`__elbrus_2c3__`
+Elbrus 12C|`__elbrus_12c__`
+Elbrus 16C|`__elbrus_16c__`
+
 ## [Epiphany](http://en.wikipedia.org/wiki/Adapteva) ##
 
 Type|Macro
