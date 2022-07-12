@@ -178,6 +178,13 @@ FreeBSD|`__FreeBSD__`|`__FreeBSD_version`
 
 For more information see the [FreeBSD porters handbook](http://www.freebsd.org/doc/en_US.ISO8859-1/books/porters-handbook/freebsd-versions.html).
 
+## [Fuchsia](https://en.wikipedia.org/wiki/Fuchsia_(operating_system)) ##
+
+Type|Macro|Format|Description
+----|-----|------|-----------
+Identification|`__Fuchsia__`|| [1](https://github.com/llvm/llvm-project/blob/5f8cefebd900bbbd96961162ed9b80056e2ab95f/clang/lib/Basic/Targets/OSTargets.h#L928-L937)
+Version|`__Fuchsia_API_level__`|V|V = API level [1](https://fuchsia.dev/fuchsia-src/contribute/governance/rfcs/0002_platform_versioning)
+
 ## GNU aka [GNU/Hurd](http://en.wikipedia.org/wiki/GNU/Hurd) ##
 
 The official name of this operating system is GNU. Hurd is the kernel in the GNU operating system. It is often listed as GNU/Hurd since there is also GNU/Linux and GNU/kFreeBSD, which are most of the GNU operating system with the Linux and FreeBSD kernels respectively.
