@@ -557,7 +557,7 @@ Identification|`_WIN32`|Defined for both 32-bit and 64-bit environments [1](http
 Identification|`_WIN64`|Defined for 64-bit environments [1](http://msdn.microsoft.com/en-us/library/ff540443.aspx)
 Identification|`__WIN32__`|Defined by Borland C++
 Identification|`__TOS_WIN__`|Defined by xlC
-Identification|`__WINDOWS__`|Defined by Watcom C/C++
+Identification|`__WINDOWS__`|Defined for 16-bit-environments by Watcom C/C++ [1](https://github.com/open-watcom/open-watcom-v2/blob/e71622efc810f8cdfd538a85a97eccee8c4feece/bld/cc/c/coptions.c#L357-L360)
 
 ## [Windows CE](http://en.wikipedia.org/wiki/Windows_CE) ##
 
