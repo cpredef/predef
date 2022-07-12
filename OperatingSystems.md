@@ -413,6 +413,12 @@ Identification|`M_I386`|Defined by GNU C
 Identification|`M_XENIX`|Defined by GNU C
 Identification|`_SCO_DS`|
 
+## [SerenityOS](https://serenityos.org/) ##
+
+Type|Macro|Description
+----|-----|-----------
+Identification|`__serenity__`|Defined by [GNU C](https://github.com/SerenityOS/serenity/blob/d2b887a793397a7a22c7ba50e7f6cb704f809446/Toolchain/Patches/gcc/0001-Add-a-gcc-driver-for-SerenityOS.patch#L129) and [Clang](https://github.com/SerenityOS/serenity/blob/d2b887a793397a7a22c7ba50e7f6cb704f809446/Toolchain/Patches/llvm/0003-Driver-Add-support-for-SerenityOS.patch#L68)
+
 ## [Solaris](http://en.wikipedia.org/wiki/Solaris_Operating_Environment) ##
 
 Type|Macro|Description
