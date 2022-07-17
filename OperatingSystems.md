@@ -74,9 +74,10 @@ Based on Nucleus OS.
 
 ## [BeOS](http://en.wikipedia.org/wiki/BeOS) ##
 
-Type|Macro
----|---
-Identification|`__BEOS__`
+Type|Macro|Format|Description
+---|---|---|---
+Identification|`__BEOS__`| |
+Version|`B_BEOS_VERSION`|0xVVRR|VV = Version<br/>RR = Revision<br/><br/>Must be included from [`<BeBuild.h>`](https://git.haiku-os.org/haiku/tree/headers/os/BeBuild.h)
 
 ## [Blue Gene](http://en.wikipedia.org/wiki/Bluegene) ##
 
