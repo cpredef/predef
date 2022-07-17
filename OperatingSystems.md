@@ -210,6 +210,24 @@ Type|Macro
 ---|---
 Identification|`__gnu_linux__`
 
+## [Haiku](https://en.wikipedia.org/wiki/Haiku_%28operating_system%29) ##
+
+Type|Macro|Format|Description
+---|---|---|---
+Identification|`__HAIKU__`| |
+Version|`B_HAIKU_VERSION_'V'`|0x00VV0000|VV = Version<br/><br/>Defined in advance before being reached.<br/><br/>Must be included from [`<BeBuild.h>`](https://git.haiku-os.org/haiku/tree/headers/os/BeBuild.h)
+Version|`B_HAIKU_VERSION`|0x00VVRRPP|VV = Version<br/>RR = Revision (Alpha and Beta ordering for VV+1)<br/>PP = Pre (0 or 1 if before RR+1)<br/><br/>Must be included from [`<BeBuild.h>`](https://git.haiku-os.org/haiku/tree/headers/os/BeBuild.h)
+
+##### Example #####
+
+Haiku|`B_HAIKU_VERSION`
+---|---
+1 Alpha 1|`B_HAIKU_VERSION_1_ALPHA_1` = 0x00000100
+1 Alpha 4|`B_HAIKU_VERSION_1_ALPHA_4` = 0x00000400
+1 Beta 1|`B_HAIKU_VERSION_1_BETA_1` = 0x00000500
+Git version before 1 Beta 4|`B_HAIKU_VERSION_1_PRE_BETA_4` = 0x00000701
+1 |`B_HAIKU_VERSION_1` = 0x00010000
+
 ## [HI-UX MPP](http://en.wikipedia.org/wiki/HI-UX) ##
 
 Type|Macro
