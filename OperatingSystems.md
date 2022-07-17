@@ -314,6 +314,14 @@ Type|Macro
 ---|---
 Identification|`__minix`
 
+## [MiNT](https://en.wikipedia.org/wiki/MiNT) ##
+
+Originally *MiNT is Not TOS*, later renamed to *MiNT is Now TOS*.
+
+Type|Macro
+---|---
+Identification|`__MINT__`
+
 ## [MorphOS](http://en.wikipedia.org/wiki/Morphos) ##
 
 Type|Macro
