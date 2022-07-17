@@ -68,6 +68,14 @@ Type|Macro
 ---|---
 Identification|`apollo`
 
+## [AROS](https://en.wikipedia.org/wiki/AROS_Research_Operating_System) ##
+
+Originally *Amiga Research Operating System*, later renamed to *AROS Research Operating System*.
+
+Type|Macro
+---|---
+Identification|`__AROS__`
+
 ## [Bada](http://en.wikipedia.org/wiki/Bada_%28operating_system%29) ##
 
 Based on Nucleus OS.
