@@ -614,6 +614,9 @@ Version|`_MSC_FULL_VER`|VVRRPPPP|VV = Version<br/>RR = Revision<br/>PPPP = Patch
 Version|`_MSC_FULL_VER`|VVRRPPPPP|VV = Version<br/>RR = Revision<br/>PPPPP = Patch<br/><br/>From Visual C++ 8.0
 Version|`_MSC_BUILD`|B|B = Build number<br/><br/>From Visual C++ 9.0
 
+Intel's compiler also defines _MSC_VER and _MSC_FULL_VER on Windows. ([1](https://www.intel.com/content/www/us/en/develop/documentation/cpp-compiler-developer-guide-and-reference/top/compiler-reference/macros/additional-predefined-macros.html))
+You can exclude it by checking that __INTEL_COMPILER is not defined.
+
 ##### Example #####
 
 Visual C++ [1](http://msdn.microsoft.com/en-us/library/b0084kay.aspx) [2](http://social.msdn.microsoft.com/Forums/en-US/vcgeneral/thread/c3f1ba1f-c59d-46a3-a028-bcfabe9fbe2c/)|`_MSC_VER`|`_MSC_FULL_VER`
