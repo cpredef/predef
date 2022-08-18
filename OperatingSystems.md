@@ -258,6 +258,16 @@ Type|Macro|Format|Description
 Identification|`__OS400__`||
 Version|`__OS400_TGTVRM__`|VRM|V = Version<br/>R = Revision<br/>M = Modification
 
+## [illumos](https://illumos.org) ##
+
+Type|Macro|Description
+---|---|---
+Identification|`__illumos__`|See also: [13726 distinguish ourselves with a macro](https://www.illumos.org/issues/13726)
+Identification|`sun`|Shared with Solaris; use not recommended
+Identification|`__sun`|Shared with Solaris; use not recommended
+
+Note that illumos forked from Solaris in ~2010, but continues to provide the identifying definitions that Solaris provided at the point of the fork.
+
 ## [INTEGRITY](http://en.wikipedia.org/wiki/Integrity_%28operating_system%29) ##
 
 Type|Macro
