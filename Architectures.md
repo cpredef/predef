@@ -256,7 +256,7 @@ Type|Macro
 ---|---
 Identification|`pyr`
 
-## [RISC-V](https://ru.wikipedia.org/wiki/RISC-V) ##
+## [RISC-V](https://en.wikipedia.org/wiki/RISC-V) ##
 
 Type|Macro|Description
 ---|---|---
