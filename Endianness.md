@@ -5,7 +5,7 @@
 * [Bi-endianness](http://en.wikipedia.org/wiki/Endianness#Bi-endian_hardware): Some processors support multiple endian modes, even to the extent of allowing dynamically changing between big and little-endian.
 * [Middle-endianness](http://en.wikipedia.org/wiki/Endianness#Middle-endian): The two most common types of endianness are byte-swapped big-endian (ABCD) and byte-swapped little-endian (DCBA), but some older processors use other types. For instance, [PDP-11](http://en.wikipedia.org/wiki/PDP-11) used word-swapped little-endian (BADC), and [Honeywell 316](http://en.wikipedia.org/wiki/Honeywell_316) used word-swapped big-endian (CDAB).
 * Integer vs floating-point: Some processors use a different endian model for integers versus floating-point values.
-* Processor vs operating system: Most operating systems follow the endianness of the underlying hardware, but some (e.g. [VOS](http://en.wikipedia.org/wiki/Stratus_VOS Stratus)) retain their historic big-endian environment even when ported to little-endian processors.
+* Processor vs operating system: Most operating systems follow the endianness of the underlying hardware, but some (e.g. [VOS](http://en.wikipedia.org/wiki/Stratus_VOS)) retain their historic big-endian environment even when ported to little-endian processors.
 
 ## Recommendations ##
 
