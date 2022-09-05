@@ -17,9 +17,9 @@ Some compilers or system headers provide macros to determine endianness, but the
 * Detect endianness at run-time (see example below.)
 * Detect endianness at configuration-time, for example by using the Autoconf `AC_C_BIGENDIAN` feature. While this method works well when the same platform is used to build and host (execute) the package, you must take care when using autoconf in a cross-development environment, as the endianness of the build and host platforms may not be identical.
 * Detect endianness at compile-time. There are several options:
-* Use system header.
-* Use pre-defined endian macros.
-* Use pre-defined processor macros.
+  * Use system header.
+  * Use pre-defined endian macros.
+  * Use pre-defined processor macros.
 
 ## Endian-neutral code ##
 
