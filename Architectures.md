@@ -224,6 +224,14 @@ R4400|`_MIPS_ISA_MIPS3`| |3|`__MIPS_ISA3__`
 R8000|`_MIPS_ISA_MIPS4`| |4|`__MIPS_ISA4__`
 R10000|`_MIPS_ISA_MIPS4`| |4|`__MIPS_ISA4__`
 
+## [NEC SX-Aurora TSUBASA](https://en.wikipedia.org/wiki/NEC_SX-Aurora_TSUBASA) ##
+
+Type|Macro|Description
+---|---|---
+Identification|`__ve__`|Defined by NEC C/C++ Compiler and Clang
+Identification|`__ve`|Defined by NEC C/C++ Compiler and Clang
+Identification|`__NEC__`|Defined by NEC C/C++ Compiler and Clang
+
 ## [PowerPC](http://en.wikipedia.org/wiki/PowerPC) ##
 
 Type|Macro|Description
