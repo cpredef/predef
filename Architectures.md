@@ -179,6 +179,18 @@ CPU|`_M_IA64` (Intel C/C++)
 ---|---
 |64100
 
+## [LoongArch](http://en.wikipedia.org/wiki/LoongArch) ##
+
+Type|Macro|Description
+---|---|---
+Identification|`__loongarch__`|Defined by GNU C, Clang and official toolchain conventions
+Version|`__loongarch_arch` = V|V = Version
+Version|`__loongarch_tune` = V|V = Version
+Version|`_LOONGARCH_ARCH` = V|V = Version, legacy
+Version|`_LOONGARCH_TUNE` = V|V = Version, legacy
+
+More info on [official toolchain convention](https://loongson.github.io/LoongArch-Documentation/LoongArch-toolchain-conventions-EN.html#_cc_preprocessor_built_in_macro_definitions)
+
 ## [Motorola 68k](http://en.wikipedia.org/wiki/M68k) ##
 
 Type|Macro|Description
