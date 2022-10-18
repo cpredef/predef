@@ -597,7 +597,7 @@ VMS|`__VMS_VER`
 ## [VxWorks](http://en.wikipedia.org/wiki/VxWorks) ##
 
 Type|Macro|Description
----|---|---|--
+---|---|---
 Identification|`__VXWORKS__`|Defined by GNU C and Diab (from ?)
 Identification|`__vxworks`|Defined by GNU C and Diab (from ?)
 Version|`_WRS_VXWORKS_MAJOR`|Version<br/><br/>Must be included from `<version.h>`
