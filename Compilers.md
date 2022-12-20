@@ -903,14 +903,20 @@ Identification|`_SCO_DS`
 
 Type|Macro|Format|Description
 ---|---|---|---
-Identification|`SDCC`| |
-Version|`SDCC`|VRP|V = Version<br/>R = Revision<br/>P = Patch
+Identification|`__SDCC`| |
+Identification|`SDCC`| |Obsolete, due to be removed
+Version|`__SDCC`|SDCC_V_R_P|V = Version<br/>R = Revision<br/>P = Patch
+Version|`__SDCC_VERSION_MAJOR`|V|Major version number
+Version|`__SDCC_VERSION_MINOR`|R|Minor version number
+Version|`__SDCC_VERSION_PATCH`|P|Patch level number
+Version|`__SDCC_REVISION`|S|SVN revision number
+Version|`SDCC`|VRP|Obsolete, due to be removed<br/>V = Version<br/>R = Revision<br/>P = Patch
 
 ##### Example #####
 
-SDCC Version|`SDCC` Macro
----|---
-2.5.6|256
+SDCC Version|`__SDCC`|`__SDCC_VERSION_MAJOR`|`__SDCC_VERSION_MINOR`|`__SDCC_VERSION_PATCH`|`__SDCC_REVISION`
+---|---|---|---|---|---
+4.2.0 #13081|SDCC_4_2_0|4|2|0|13081
 
 ## [SN Compiler](http://en.wikipedia.org/wiki/SN_Systems) ##
 
