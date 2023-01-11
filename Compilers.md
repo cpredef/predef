@@ -828,6 +828,16 @@ Palm C/C++|`_PACC_VER`
 ---|---
 1.0.0.13|0x1000000D
 
+## [Orange C](https://github.com/LADSoft/OrangeC) ##
+
+Type|Macro|Format|Description
+---|---|---|---
+Identification|`__ORANGEC__`|VRR|V = Version<br/>RR = Revision
+Version|`__ORANGEC_MAJOR__`|V|V = Version
+Version|`__ORANGEC_MINOR__`|R|R = Revision
+Version|`__ORANGEC_PATCHLEVEL__`|P|P = Patch
+Version|`__VERSION__`|"V.R.P.B"|V = Version<br/>R = Revision<br/>P = Patch<br/>B = Build
+
 ## [Pelles C](http://en.wikipedia.org/wiki/Pelles_C) ##
 
 Type|Macro|Format|Description
