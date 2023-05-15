@@ -61,6 +61,7 @@ ARM 7|`__ARM_ARCH_7__`<br/>`__ARM_ARCH_7A__`<br/>`__ARM_ARCH_7R__`<br/>`__ARM_AR
 Type|Macro|Description
 ---|---|---
 Identification|`__aarch64__`|Defined by GNU C [1](http://gcc.gnu.org/viewcvs/trunk/gcc/config/aarch64/aarch64.h?view=markup)
+Identification|`_M_ARM64`|Defined by Visual Studio
 
 ## [Blackfin](http://en.wikipedia.org/wiki/Blackfin) ##
 
