@@ -160,13 +160,13 @@ Identification|`__ECOS`
 
 ## [Emscripten](https://en.wikipedia.org/wiki/Emscripten) ##
 
-Type|Macro|Format|Description|Availability
----|---|---|---|---
-Identification|`EMSCRIPTEN`| | |Defined as of 1.0.1a, gone as of 1.30.6
-Identification|`__EMSCRIPTEN__`| | |Defined as of 1.3.7
-Version|`__EMSCRIPTEN_major__`|V|V = Major version|Defined as of 1.21.4
-Version|`__EMSCRIPTEN_minor__`|R|R = Minor version|Defined as of 1.21.4
-Version|`__EMSCRIPTEN_tiny__`|P|P = Patch level|Defined as of 1.21.4
+Type|Macro|Format|Description|Availability|Header
+---|---|---|---|---|---
+Identification|`EMSCRIPTEN`| | |Defined as of 1.0.1a, gone as of 1.30.6|None
+Identification|`__EMSCRIPTEN__`| | |Defined as of 1.3.7|None
+Version|`__EMSCRIPTEN_major__`|V|V = Major version|Defined as of 1.21.4|`emscripten/version.h`
+Version|`__EMSCRIPTEN_minor__`|R|R = Minor version|Defined as of 1.21.4|`emscripten/version.h`
+Version|`__EMSCRIPTEN_tiny__`|P|P = Patch level|Defined as of 1.21.4|`emscripten/version.h`
 
 ##### Example #####
 
