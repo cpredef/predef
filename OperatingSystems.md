@@ -158,6 +158,23 @@ Type|Macro
 ---|---
 Identification|`__ECOS`
 
+## [Emscripten](https://en.wikipedia.org/wiki/Emscripten) ##
+
+Type|Macro|Format|Description|Availability
+---|---|---|---|---
+Identification|`EMSCRIPTEN`| | |Defined as of 1.0.1a, gone as of 1.30.6
+Identification|`__EMSCRIPTEN__`| | |Defined as of 1.3.7
+Version|`__EMSCRIPTEN_major__`|V|V = Major version|Defined as of 1.21.4
+Version|`__EMSCRIPTEN_minor__`|R|R = Minor version|Defined as of 1.21.4
+Version|`__EMSCRIPTEN_tiny__`|P|P = Patch level|Defined as of 1.21.4
+
+##### Example #####
+
+Version|`__EMSCRIPTEN_major__`|`__EMSCRIPTEN_minor__`|`__EMSCRIPTEN_tiny__`
+---|---|---|---
+3.1.41|3|1|41
+3.1.41-git|3|1|41-git
+
 ## [EMX Environment](http://en.wikipedia.org/wiki/EMX_%28programming_environment%29) ##
 
 Type|Macro
