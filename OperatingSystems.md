@@ -354,6 +354,11 @@ Identification|`__MSDOS__`
 Identification|`_MSDOS`
 Identification|`__DOS__`
 
+## [Native Client](https://en.wikipedia.org/wiki/Google_Native_Client) ##
+Type|Macro
+---|---
+Identification|`__native_client__`
+
 ## [NetBSD](http://en.wikipedia.org/wiki/Netbsd) ##
 
 Type|Macro|Format|Description
