@@ -809,6 +809,12 @@ Compiler version|Solaris Studio|`__SUNPRO_C`
 
 The name of Oracle Solaris Studio has changed over the years (e.g. Sun Studio, Sun Workshop, Forte Developer) but we do not make this distinction in the table above.
 
+## [PNaCl](https://en.wikipedia.org/wiki/Google_Native_Client) ##
+
+Type|Macro
+---|---
+Identification|`__pnacl__`
+
 ## Pacific C ##
 
 Type|Macro
