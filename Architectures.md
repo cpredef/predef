@@ -245,6 +245,12 @@ Identification|`__ve__`|Defined by NEC C/C++ Compiler and Clang
 Identification|`__ve`|Defined by NEC C/C++ Compiler and Clang
 Identification|`__NEC__`|Defined by NEC C/C++ Compiler and Clang
 
+## [PNaCl](https://en.wikipedia.org/wiki/Google_Native_Client) ##
+
+Type|Macro
+---|---
+Identification|`__pnacl__`
+
 ## [PowerPC](http://en.wikipedia.org/wiki/PowerPC) ##
 
 Type|Macro|Description
