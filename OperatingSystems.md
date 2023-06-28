@@ -160,20 +160,22 @@ Identification|`__ECOS`
 
 ## [Emscripten](https://en.wikipedia.org/wiki/Emscripten) ##
 
-Type|Macro|Format|Description|Availability|Header
----|---|---|---|---|---
-Identification|`EMSCRIPTEN`| | |Defined as of 1.0.1a, gone as of 1.30.6|None
-Identification|`__EMSCRIPTEN__`| | |Defined as of 1.3.7|None
-Version|`__EMSCRIPTEN_major__`|V|V = Major version|Defined as of 1.21.4|`emscripten/version.h`
-Version|`__EMSCRIPTEN_minor__`|R|R = Minor version|Defined as of 1.21.4|`emscripten/version.h`
-Version|`__EMSCRIPTEN_tiny__`|P|P = Patch level|Defined as of 1.21.4|`emscripten/version.h`
+Type|Macro|Format|Description
+---|---|---|---
+Identification|`EMSCRIPTEN`| |From Emscripten 1.0.1a until Emscripten 1.30.6
+Identification|`__EMSCRIPTEN__`| |From Emscripten 1.3.7
+Version|`__EMSCRIPTEN_major__`|V|V = Major version<br/><br/>From Emscripten 1.21.4<br/><br/>Must be included from `<emscripten/version.h>`
+Version|`__EMSCRIPTEN_minor__`|R|R = Minor version<br/><br/>From Emscripten 1.21.4<br/><br/>Must be included from `<emscripten/version.h>`
+Version|`__EMSCRIPTEN_tiny__`|P|P = Patch level<br/><br/>From Emscripten 1.21.4<br/><br/>Must be included from `<emscripten/version.h>`
+
+For more information see [Detecting Emscripten in Preprocessor](https://emscripten.org/docs/compiling/Building-Projects.html#detecting-emscripten-in-preprocessor)
 
 ##### Example #####
 
 Version|`__EMSCRIPTEN_major__`|`__EMSCRIPTEN_minor__`|`__EMSCRIPTEN_tiny__`
 ---|---|---|---
 3.1.41|3|1|41
-3.1.41-git|3|1|41-git
+3.1.41-git|3|1|41
 
 ## [EMX Environment](http://en.wikipedia.org/wiki/EMX_%28programming_environment%29) ##
 
