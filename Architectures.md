@@ -7,7 +7,7 @@ Type|Macro|Description
 Identification|`__alpha__`|Defined by GNU C
 Version|`__alpha_ev'V'__`|V = Version
 Identification|`__alpha`|Defined by DEC C
-Identification|`_M_ALPHA`|Defined by Visual Studio
+Identification|`_M_ALPHA`|Defined by Visual C++
 
 ##### Example #####
 
@@ -22,7 +22,7 @@ Alpha EV6|`__alpha_ev6__`
 Type|Macro|Description
 ---|---|---
 Identification|`__amd64__`<br/>`__amd64`<br/>`__x86_64__`<br/>`__x86_64`<br/>|Defined by GNU C and Sun Studio
-Identification|_M_X64<br/>`_M_AMD64`|Defined by Visual Studio, and standalone MSVC
+Identification|_M_X64<br/>`_M_AMD64`|Defined by Visual C++
 
 Notice that [x32](http://en.wikipedia.org/wiki/X32_ABI) can be detected by checking if the CPU uses the [ILP32 data model](DataModels.md).
 
@@ -37,8 +37,8 @@ Identification|`__TARGET_ARCH_ARM`<br/>`__TARGET_ARCH_THUMB`|Defined by RealView
 Version|`__TARGET_ARCH_ARM` = V<br/>`__TARGET_ARCH_THUMB` = V|V = Version
 Version|`__TARGET_ARCH_'VR'`|VR = Version and Revision
 Identification|`_ARM`|Defined by ImageCraft C
-Identification|`_M_ARM`|Defined by Visual Studio, and standalone MSVC
-Identification|`_M_ARMT`|Defined by Visual Studio in Thumb mode
+Identification|`_M_ARM`|Defined by Visual C++
+Identification|`_M_ARMT`|Defined by Visual C++ in Thumb mode
 Version|`_M_ARM` = V|V = Version
 Identification|`__arm`|Defined by Diab
 
@@ -61,7 +61,7 @@ ARM 7|`__ARM_ARCH_7__`<br/>`__ARM_ARCH_7A__`<br/>`__ARM_ARCH_7R__`<br/>`__ARM_AR
 Type|Macro|Description
 ---|---|---
 Identification|`__aarch64__`|Defined by GNU C [1](http://gcc.gnu.org/viewcvs/trunk/gcc/config/aarch64/aarch64.h?view=markup)
-Identification|`_M_ARM64`|Defined by Visual Studio, and standalone MSVC
+Identification|`_M_ARM64`|Defined by Visual C++
 
 ## [Blackfin](http://en.wikipedia.org/wiki/Blackfin) ##
 
@@ -139,8 +139,8 @@ Identification|`i386`<br/>`__i386`<br/>`__i386__`| |Defined by GNU C
 Version|`__i386__`<br/>`__i486__`<br/>`__i586__`<br/>`__i686__`| |Defined by GNU C
 Identification|`__i386`| |Defined by Sun Studio
 Identification|`__i386`<br/>`__IA32__`| |Defined by Stratus VOS C
-Identification|`_M_I86`| |Only defined for 16-bits architectures<br/><br/>Defined by Visual Studio, Digital Mars, and Watcom C/C++ (see note below)
-Identification|`_M_IX86`| |Only defined for 32-bits architectures<br/><br/>Defined by Visual Studio, standalone MSVC Intel C/C++, Digital Mars, and Watcom C/C++
+Identification|`_M_I86`| |Only defined for 16-bits architectures<br/><br/>Defined by Visual C++, Digital Mars, and Watcom C/C++ (see note below)
+Identification|`_M_IX86`| |Only defined for 32-bits architectures<br/><br/>Defined by Visual C++, standalone MSVC Intel C/C++, Digital Mars, and Watcom C/C++
 Version|`_M_IX86`|V00|V = Version
 Identification|`__X86__`| |Defined by Watcom C/C++
 Identification|`_X86_`| |Defined by MinGW32
@@ -169,7 +169,7 @@ Type|Macro|Format|Description
 ---|---|---|---
 Identification|`__ia64__`<br/>`_IA64`<br/>`__IA64__`| |Defined by GNU C
 Identification|`__ia64`| |Defined by HP aCC
-Identification|`_M_IA64`| |Defined by Visual Studio
+Identification|`_M_IA64`| |Defined by Visual C++
 Identification|`_M_IA64`| |Defined by Intel C/C++
 Version|`_M_IA64`|?|
 Identification|`__itanium__`| |Defined by Intel C/C++
@@ -257,7 +257,7 @@ Type|Macro|Description
 ---|---|---
 Identification|`__powerpc`<br/>`__powerpc__`<br/>`__powerpc64__`<br/>`__POWERPC__`<br/>`__ppc__`<br/>`__ppc64__`<br/>`__PPC__`<br/>`__PPC64__`<br/>`_ARCH_PPC`<br/>`_ARCH_PPC64`|Defined by GNU C
 Version|`__ppc'V'__`|V = Version
-Identification|`_M_PPC`|Defined by Visual Studio
+Identification|`_M_PPC`|Defined by Visual C++
 Version|`_M_PPC`|?
 Identification|`_ARCH_PPC`<br/>`_ARCH_PPC64`|Defined by XL C/C++
 Version|`_ARCH_'V'`|V = Version
