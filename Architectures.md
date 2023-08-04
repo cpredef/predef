@@ -140,7 +140,7 @@ Version|`__i386__`<br/>`__i486__`<br/>`__i586__`<br/>`__i686__`| |Defined by GNU
 Identification|`__i386`| |Defined by Sun Studio
 Identification|`__i386`<br/>`__IA32__`| |Defined by Stratus VOS C
 Identification|`_M_I86`| |Only defined for 16-bits architectures<br/><br/>Defined by Visual C++, Digital Mars, and Watcom C/C++ (see note below)
-Identification|`_M_IX86`| |Only defined for 32-bits architectures<br/><br/>Defined by Visual C++, standalone MSVC Intel C/C++, Digital Mars, and Watcom C/C++
+Identification|`_M_IX86`| |Only defined for 32-bits architectures<br/><br/>Defined by Visual C++, Intel C/C++, Digital Mars, and Watcom C/C++
 Version|`_M_IX86`|V00|V = Version
 Identification|`__X86__`| |Defined by Watcom C/C++
 Identification|`_X86_`| |Defined by MinGW32

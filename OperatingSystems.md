@@ -297,7 +297,7 @@ Identification|`__INTEGRITY`
 
 Type|Macro|Description
 ---|---|---
-Identification|`__INTERIX`|Defined by GNU C and Visual Studio
+Identification|`__INTERIX`|Defined by GNU C and Visual C++
 
 ## [IRIX](http://en.wikipedia.org/wiki/Irix) ##
 
@@ -652,7 +652,7 @@ Identification|`__WINDOWS__`|Defined for 16-bit-environments by Watcom C/C++ [1]
 
 Type|Macro|Format|Description
 ---|---|---|---
-Identification|`_WIN32_WCE`| |Defined by Embedded Visual Studio C++
+Identification|`_WIN32_WCE`| |Defined by Embedded Visual C++
 Version|`_WIN32_WCE`|VRR|V = Version<br/>R = Revision
 Identification|`WIN32_PLATFORM_'P'`| |P = Platform
 Version|`WIN32_PLATFORM_'P'`|V|P = Platform<br/>V = Version

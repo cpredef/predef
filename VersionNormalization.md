@@ -15,7 +15,7 @@ The pre-defined macros specify version numbering in different ways, which makes 
 # endif
 #endif
 
-/* Normalize Visual Studio version */
+/* Normalize Visual C++ version */
 #if defined(_MSC_FULL_VER)
 # define PREDEF_COMPILER_MSC PREDEF_VERSION(_MSC_FULL_VER / 1000000, (_MSC_FULL_VER % 1000000) / 10000, _MSC_FULL_VER % 10000)
 #else
