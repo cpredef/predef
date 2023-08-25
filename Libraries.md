@@ -68,6 +68,13 @@ OS/390 2.10|0x220A0000
 z/OS 1.1|0x41010000
 z/OS 1.6|0x41060000
 
+### [Z88DK](https://en.wikipedia.org/wiki/Z88DK) C Library ###
+
+Type|Macro|Format|Description
+---|---|---|---
+Identification|`__Z88DK`||Available post 2.2
+Identification|`__Z88DK_NEWLIB`||newlib builds; available post 2.2
+
 ## Standard C++ Libraries ##
 
 ### [Dinkumware](http://en.wikipedia.org/wiki/Dinkumware) ###

@@ -125,6 +125,13 @@ Type|Macro
 ---|---
 Identification|`__convex__`
 
+## [CP/M](http://en.wikipedia.org/wiki/CP/M) ##
+
+Type|Macro|Format|Description
+---|---|---|---
+Identification|`__CPM`||Defined by Z88DK
+Identification|`CPM`||Defined by Z88DK
+
 ## [Cygwin Environment](http://en.wikipedia.org/wiki/Cygwin) ##
 
 Type|Macro
@@ -372,6 +379,13 @@ Identification|`MSDOS`
 Identification|`__MSDOS__`
 Identification|`_MSDOS`
 Identification|`__DOS__`
+
+## [MSX](http://en.wikipedia.org/wiki/MSX) ##
+
+Type|Macro|Format|Description
+---|---|---|---
+Identification|`__MSX`||Defined by Z88DK
+Identification|`MSX`||Defined by Z88DK
 
 ## [Native Client](https://en.wikipedia.org/wiki/Google_Native_Client) ##
 

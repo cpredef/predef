@@ -1050,6 +1050,13 @@ Watcom C++|Open Watcom C++|`__WATCOMC__`
 |1.0|1200
 |1.7|1270
 
+## [Z88DK](https://en.wikipedia.org/wiki/Z88DK) ##
+
+Type|Macro|Format|Description
+---|---|---|---
+Identification|`__SCCZ80`<br/>`SCCZ80`||Using sccz80 compiler
+Identification|`__SDCC`  ||Using sdcc compiler
+
 ## [Zortech C++](http://en.wikipedia.org/wiki/Zortech) ##
 
 Type|Macro|Format|Description
