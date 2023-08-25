@@ -131,6 +131,15 @@ PA RISC 1.0|`_PA_RISC1_0`
 PA RISC 1.1|`_PA_RISC1_1`<br/>`__HPPA11__`<br/>`__PA7100__`
 PA RISC 2.0|`_PA_RISC2_0`<br/>`__RISC2_0__`<br/>`__HPPA20__`<br/>`__PA8000__`
 
+## [Intel x80](http://en.wikipedia.org/wiki/Intel_8080) ##
+
+Type|Macro|Format|Description
+---|---|---|---
+Identification|`__8080__`|| Defined by Z88DK for 8080 CPUs
+Identification|`__8085__`|| Defined by Z88DK for 8085 CPUs; `__8080__` is also defined
+Identification|`__Z80`   || Defined by Z88DK for Z80 CPUs
+Identification|`__Z180`  || Defined by Z88DK for Z180 CPUs
+
 ## [Intel x86](http://en.wikipedia.org/wiki/X86) ##
 
 Type|Macro|Format|Description
