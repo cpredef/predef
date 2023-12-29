@@ -761,6 +761,12 @@ Type|Macro
 ---|---
 Identification|`__NWCC__`
 
+## [NVHPC](https://developer.nvidia.com/hpc-sdk)
+
+Type|Macro
+---|---
+Identification|`__NVCOMPILER`
+
 ## [Open64](http://en.wikipedia.org/wiki/Open64) ##
 
 Type|Macro|Format|Description
