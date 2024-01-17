@@ -25,7 +25,7 @@ Type|Macro|Format|Description
 Identification|`__ANDROID__`| |
 Version|`__ANDROID_API__`|V|V = API Version<br/><br/>Must be included from `<android/api-level.h>`
 
-Notice that Android is based on Linux, and that the Linux macros also are defined for Android.
+Notice that Android uses Linux kernel, and that the Linux macros also are defined for Android.
 
 ##### Example #####
 
@@ -100,7 +100,7 @@ Version|`__TOS_BGQ__`|Blue Gene/Q<br/><br/>Defined by XL C/C++
 
 Type|Macro|Format|Description
 ---|---|---|---
-Identification|`__FreeBSD__`<br/>`__NetBSD__`<br/>`__OpenBSD__`<br/>`__bsdi__`<br/>`__DragonFly__`| |
+Identification|`__FreeBSD__`<br/>`__NetBSD__`<br/>`__OpenBSD__`<br/>`__bsdi__`<br/>`__DragonFly__`<br/>`__MidnightBSD__`| |
 Version|`BSD`|YYYYMM|YYYY = Year<br/>MM = Month<br/><br/>Must be included from `<sys/param.h>`
 Version|`BSD4_2`<br/>`BSD4_3`<br/>`BSD4_4`| |Must be included from `<sys/param.h>`
 Identification|`_SYSTYPE_BSD`| |Defined by DEC C
@@ -190,7 +190,7 @@ Type|Macro
 ---|---
 Identification|`__EMX__`
 
-## [FreeBSD](http://en.wikipedia.org/wiki/Freebsd) ##
+## [FreeBSD](http://en.wikipedia.org/wiki/FreeBSD) ##
 
 Type|Macro|Format|Description
 ---|---|---|---
@@ -198,7 +198,7 @@ Identification|`__FreeBSD__`| |
 Identification|`__FreeBSD_kernel__`| |From FreeBSD 8.3, 9.1, and 10.0.[1](http://svnweb.freebsd.org/base/head/sys/sys/param.h?view=markup)
 Version|`BSD`| |
 Version|`__FreeBSD__`|V|V = Version
-Version|`__FreeBSD_version`|?|Must be included from `<osreldate.h>`
+Version|`__FreeBSD_version`|?|Must be included from `<sys/param.h>`
 
 ##### Example #####
 
@@ -211,7 +211,7 @@ FreeBSD|`__FreeBSD__`|`__FreeBSD_version`
 4.0-RELEASE|4|400017
 4.5-RELEASE|4|450000
 
-For more information see the [FreeBSD porters handbook](http://www.freebsd.org/doc/en_US.ISO8859-1/books/porters-handbook/freebsd-versions.html).
+For more information see the [FreeBSD porters handbook](https://docs.freebsd.org/en/books/porters-handbook/versions/).
 
 ## [Fuchsia](https://en.wikipedia.org/wiki/Fuchsia_(operating_system)) ##
 
@@ -344,6 +344,15 @@ Type|Macro|Description
 Identification|`__OS9000`|Defined by Ultimate C/C++
 Identification|`_OSK`|Defined by Ultimate C/C++
 
+## [MidnightBSD](https://en.wikipedia.org/wiki/MidnightBSD)
+
+Type|Macro|Description
+---|---|---
+Identification|`__MidnightBSD__`
+Identification|`__MidnightBSD_kernel__`
+Version|`BSD`
+Version|`__MidnightBSD_version`|Must be included from `<sys/param.h>`
+
 ## [MINIX](http://en.wikipedia.org/wiki/Minix) ##
 
 Type|Macro
@@ -393,7 +402,7 @@ Type|Macro
 ---|---
 Identification|`__native_client__`
 
-## [NetBSD](http://en.wikipedia.org/wiki/Netbsd) ##
+## [NetBSD](http://en.wikipedia.org/wiki/NetBSD) ##
 
 Type|Macro|Format|Description
 ---|---|---|---
@@ -432,7 +441,7 @@ Type|Macro
 ---|---
 Identification|`__nucleus__`
 
-## [OpenBSD](http://en.wikipedia.org/wiki/Openbsd) ##
+## [OpenBSD](http://en.wikipedia.org/wiki/OpenBSD) ##
 
 Type|Macro|Format|Description
 ---|---|---|---
