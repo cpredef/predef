@@ -1,4 +1,4 @@
-## [Data Models](http://www.unix.org/whitepapers/64bit.html) ##
+## [Data Models](https://www.unix.org/whitepapers/64bit.html) ##
 
 Data type | LP32 | ILP32 | LP64 | LLP64 | ILP64 | SILP64
 ---|---|---|---|---|---|---

@@ -13,7 +13,7 @@ Some compilers or system headers provide macros to determine endianness, but the
 
 * Avoid endianness whenever possible.
 * Use endian-neutral code (see example below.)
-* Use existing conversion functions, such as `htons()` to convert between network byte-order and the native byte-order of the processor.
+* Use existing conversion functions, such as `htons()` and `htonl()` to convert from network to host byte-order and `bswap_16()`, `bswap_32()`, and `bswap_64()` to covert to the native byte-order of the processor.
 * Detect endianness at run-time (see example below.)
 * Detect endianness at configuration-time, for example by using the Autoconf `AC_C_BIGENDIAN` feature. While this method works well when the same platform is used to build and host (execute) the package, you must take care when using autoconf in a cross-development environment, as the endianness of the build and host platforms may not be identical.
 * Detect endianness at compile-time. There are several options:
@@ -31,27 +31,27 @@ When endianness is needed for (de)marshalling binary data, you can write endian-
 /* Type */ unsigned int
 endian_native_unsigned_int(/* Type */ unsigned int net_number)
 {
-/* Type */ unsigned int result = 0;
-int i;
+	/* Type */ unsigned int result = 0;
+	int i;
 
-for (i = 0; i < (int)sizeof(result); i++) {
-result <<= CHAR_BIT;
-result += (((unsigned char *)&net_number)[i] & UCHAR_MAX);
-}
-return result;
+	for (i = 0; i < (int)sizeof(result); i++) {
+		result <<= CHAR_BIT;
+		result += (((unsigned char *)&net_number)[i] & UCHAR_MAX);
+	}
+	return result;
 }
 
 /* Type */ unsigned int
 endian_net_unsigned_int(/* Type */ unsigned int native_number)
 {
-/* Type */ unsigned int result = 0;
-int i;
+	/* Type */ unsigned int result = 0;
+	int i;
 
-for (i = (int)sizeof(result) - 1; i >= 0; i--) {
-((unsigned char *)&result)[i] = native_number & UCHAR_MAX;
-native_number >>= CHAR_BIT;
-}
-return result;
+	for (i = (int)sizeof(result) - 1; i >= 0; i--) {
+		((unsigned char *)&result)[i] = native_number & UCHAR_MAX;
+		native_number >>= CHAR_BIT;
+	}
+	return result;
 }
 ```
 
@@ -61,34 +61,32 @@ return result;
 #include <stdint.h>
 
 enum {
-ENDIAN_UNKNOWN,
-ENDIAN_BIG,
-ENDIAN_LITTLE,
-ENDIAN_BIG_WORD, /* Middle-endian, Honeywell 316 style */
-ENDIAN_LITTLE_WORD /* Middle-endian, PDP-11 style */
+	ENDIAN_UNKNOWN,
+	ENDIAN_BIG,
+	ENDIAN_LITTLE,
+	ENDIAN_BIG_WORD, /* Middle-endian, Honeywell 316 style */
+	ENDIAN_LITTLE_WORD /* Middle-endian, PDP-11 style */
 };
 
 int endianness(void)
 {
-union
-{
-uint32_t value;
-uint8_t data[sizeof(uint32_t)];
-} number;
+	union {
+		uint32_t value;
+		uint8_t data[sizeof(uint32_t)];
+	} number;
 
-number.data[0] = 0x00;
-number.data[1] = 0x01;
-number.data[2] = 0x02;
-number.data[3] = 0x03;
+	number.data[0] = 0x00;
+	number.data[1] = 0x01;
+	number.data[2] = 0x02;
+	number.data[3] = 0x03;
 
-switch (number.value)
-{
-case UINT32_C(0x00010203): return ENDIAN_BIG;
-case UINT32_C(0x03020100): return ENDIAN_LITTLE;
-case UINT32_C(0x02030001): return ENDIAN_BIG_WORD;
-case UINT32_C(0x01000302): return ENDIAN_LITTLE_WORD;
-default: return ENDIAN_UNKNOWN;
-}
+	switch (number.value) {
+	case UINT32_C(0x00010203): return ENDIAN_BIG;
+	case UINT32_C(0x03020100): return ENDIAN_LITTLE;
+	case UINT32_C(0x02030001): return ENDIAN_BIG_WORD;
+	case UINT32_C(0x01000302): return ENDIAN_LITTLE_WORD;
+	default: return ENDIAN_UNKNOWN;
+	}
 }
 ```
 
