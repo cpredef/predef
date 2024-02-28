@@ -6,18 +6,18 @@ Language standards requires the existence of pre-defined macros.
 
 Name | Macro | Standard
 ---|---|---
-C89|`__STDC__`|ANSI X3.159-1989
-C90|`__STDC__`|ISO/IEC 9899:1990
+[C89](https://en.wikipedia.org/wiki/ANSI_C#C89)|`__STDC__`|ANSI X3.159-1989
+[C90](https://en.wikipedia.org/wiki/ANSI_C#C90)|`__STDC__`|ISO/IEC 9899:1990
 C94|`__STDC_VERSION__` = 199409L|ISO/IEC 9899-1:1994
-[C99](http://www.open-std.org/jtc1/sc22/wg14/)|`__STDC_VERSION__` = 199901L|ISO/IEC 9899:1999
-[C11](http://en.wikipedia.org/wiki/C11_%28C_standard_revision%29)|`__STDC_VERSION__` = 201112L|ISO/IEC 9899:2011
-[C18](https://en.wikipedia.org/wiki/C18_%28C_standard_revision%29)|`__STDC_VERSION__` = 201710L|ISO/IEC 9899:2018
-[C++98](http://www.open-std.org/jtc1/sc22/wg21/)|`__cplusplus` = 199711L|ISO/IEC 14882:1998
-[C++11](http://en.wikipedia.org/wiki/C%2B%2B11)|`__cplusplus` = 201103L|ISO/IEC 14882:2011
-[C++14](http://en.wikipedia.org/wiki/C%2B%2B14)|`__cplusplus` = 201402L|ISO/IEC 14882:2014
-[C++17](http://en.wikipedia.org/wiki/C%2B%2B17)|`__cplusplus` = 201703L|ISO/IEC 14882:2017
-[C++/CLI](http://www.ecma-international.org/publications/standards/Ecma-372.htm)|`__cplusplus_cli` = 200406L|ECMA-372
-[DSP-C](http://www.dsp-c.org)| |ISO/IEC JTC1/SC22 WG14/N854
+[C99](https://en.wikipedia.org/wiki/C99)|`__STDC_VERSION__` = 199901L|ISO/IEC 9899:1999
+[C11](https://en.wikipedia.org/wiki/C11_%28C_standard_revision%29)|`__STDC_VERSION__` = 201112L|ISO/IEC 9899:2011
+[C17](https://en.wikipedia.org/wiki/C18_%28C_standard_revision%29)|`__STDC_VERSION__` = 201710L|ISO/IEC 9899:2018
+[C++98](https://www.open-std.org/jtc1/sc22/wg21/)|`__cplusplus` = 199711L|ISO/IEC 14882:1998
+[C++11](https://en.wikipedia.org/wiki/C%2B%2B11)|`__cplusplus` = 201103L|ISO/IEC 14882:2011
+[C++14](https://en.wikipedia.org/wiki/C%2B%2B14)|`__cplusplus` = 201402L|ISO/IEC 14882:2014
+[C++17](https://en.wikipedia.org/wiki/C%2B%2B17)|`__cplusplus` = 201703L|ISO/IEC 14882:2017
+[C++/CLI](https://web.archive.org/web/20160529152346/http://www.ecma-international.org/publications/standards/Ecma-372.htm)|`__cplusplus_cli` = 200406L|ECMA-372
+[DSP-C](https://web.archive.org/web/20070220061023/http://www.dsp-c.org/)| |ISO/IEC JTC1/SC22 WG14/N854
 [EC++](http://www.caravan.net/ec2plus/)|`__embedded_cplusplus`|Embedded C++
 
 ##### Example: C Standards #####
@@ -59,8 +59,8 @@ Unix standards require the existence macros in the `<unistd.h>` header file.
 
 Name | Macro | Standard
 ---|---|---
-POSIX.1-1988|`_POSIX_VERSION` = 198808L|
-POSIX.1-1990|`_POSIX_VERSION` = 199009L|ISO/IEC 9945-1:1990
+[POSIX.1-1988](https://nvlpubs.nist.gov/nistpubs/Legacy/FIPS/fipspub151-1.pdf)|`_POSIX_VERSION` = 198808L|
+[POSIX.1-1990](https://nvlpubs.nist.gov/nistpubs/Legacy/FIPS/fipspub151-2.pdf)|`_POSIX_VERSION` = 199009L|ISO/IEC 9945-1:1990
 POSIX.2|`_POSIX2_C_VERSION` = 199209L|ISO/IEC 9945-2:1993
 POSIX.1b-1993|`_POSIX_VERSION` = 199309L|IEEE 1003.1b-1993
 POSIX.1-1996|`_POSIX_VERSION` = 199506L|IEEE 1003.1-1996
@@ -69,9 +69,9 @@ POSIX.1-2001|`_POSIX_VERSION` = 200112L|IEEE 1003.1-2001
 XPG3|`_XOPEN_VERSION` = 3|X/Open Portability Guide 3 (1989)
 XPG4|`_XOPEN_VERSION` = 4|X/Open Portability Guide 4 (1992)
 SUS|`_XOPEN_VERSION` = 4 `&&` `_XOPEN_UNIX`|X/Open Single UNIX Specification (UNIX95)
-[SUSv2](http://www.opengroup.org/onlinepubs/7908799/toc.htm)|`_XOPEN_VERSION` = 500|X/Open Single UNIX Specification, Version 2 (UNIX98)
-[SUSv3](http://www.opengroup.org/onlinepubs/007904975/nfindex.html)|`_XOPEN_VERSION` = 600|Open Group Single UNIX Specification, Version 3 (UNIX03)
-[SUSv4](http://pubs.opengroup.org/onlinepubs/9699919799/)|`_XOPEN_VERSION` = 700|Open Group Single UNIX Specification, Version 4
+[SUSv2](https://pubs.opengroup.org/onlinepubs/7908799/toc.htm)|`_XOPEN_VERSION` = 500|X/Open Single UNIX Specification, Version 2 (UNIX98)
+[SUSv3](https://pubs.opengroup.org/onlinepubs/007904975/nfindex.html)|`_XOPEN_VERSION` = 600|Open Group Single UNIX Specification, Version 3 (UNIX03)
+[SUSv4](https://pubs.opengroup.org/onlinepubs/9699919799/)|`_XOPEN_VERSION` = 700|Open Group Single UNIX Specification, Version 4
 LSB|`__LSB_VERSION__` = VR|Linux Standards Base<br/><br/>V = Version<br/>R = Revision
 
 ##### Example: Unix Standards #####
