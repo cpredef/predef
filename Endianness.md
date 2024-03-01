@@ -13,7 +13,7 @@ Some compilers or system headers provide macros to determine endianness, but the
 
 * Avoid endianness whenever possible.
 * Use endian-neutral code (see example below.)
-* Use existing conversion functions, such as `htons()` and `htonl()` to convert from network to host byte-order and `bswap_16()`, `bswap_32()`, and `bswap_64()` to covert to the native byte-order of the processor.
+* Use existing conversion functions to convert between network byte-order and native byte-order of the processor.
 * Detect endianness at run-time (see example below.)
 * Detect endianness at configuration-time, for example by using the Autoconf `AC_C_BIGENDIAN` feature. While this method works well when the same platform is used to build and host (execute) the package, you must take care when using autoconf in a cross-development environment, as the endianness of the build and host platforms may not be identical.
 * Detect endianness at compile-time. There are several options:
