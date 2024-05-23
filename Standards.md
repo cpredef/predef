@@ -16,6 +16,7 @@ C94|`__STDC_VERSION__` = 199409L|ISO/IEC 9899-1:1994
 [C++11](https://en.wikipedia.org/wiki/C%2B%2B11)|`__cplusplus` = 201103L|ISO/IEC 14882:2011
 [C++14](https://en.wikipedia.org/wiki/C%2B%2B14)|`__cplusplus` = 201402L|ISO/IEC 14882:2014
 [C++17](https://en.wikipedia.org/wiki/C%2B%2B17)|`__cplusplus` = 201703L|ISO/IEC 14882:2017
+[C++20](https://en.wikipedia.org/wiki/C%2B%2B20)|`__cplusplus` = 202002L|ISO/IEC 14882:2020
 [C++/CLI](https://web.archive.org/web/20160529152346/http://www.ecma-international.org/publications/standards/Ecma-372.htm)|`__cplusplus_cli` = 200406L|ECMA-372
 [DSP-C](https://web.archive.org/web/20070220061023/http://www.dsp-c.org/)| |ISO/IEC JTC1/SC22 WG14/N854
 [EC++](http://www.caravan.net/ec2plus/)|`__embedded_cplusplus`|Embedded C++
