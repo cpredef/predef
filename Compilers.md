@@ -614,8 +614,10 @@ Version|`_MSC_FULL_VER`|VVRRPPPP|VV = Version<br/>RR = Revision<br/>PPPP = Patch
 Version|`_MSC_FULL_VER`|VVRRPPPPP|VV = Version<br/>RR = Revision<br/>PPPPP = Patch<br/><br/>From Visual C++ 8.0
 Version|`_MSC_BUILD`|B|B = Build number<br/><br/>From Visual C++ 9.0
 
-Intel's compiler also defines _MSC_VER and _MSC_FULL_VER on Windows. ([1](https://www.intel.com/content/www/us/en/develop/documentation/cpp-compiler-developer-guide-and-reference/top/compiler-reference/macros/additional-predefined-macros.html))
-You can exclude it by checking that __INTEL_COMPILER is not defined.
+Intel's compiler also defines `_MSC_VER` and `_MSC_FULL_VER` on Windows. ([1](https://www.intel.com/content/www/us/en/develop/documentation/cpp-compiler-developer-guide-and-reference/top/compiler-reference/macros/additional-predefined-macros.html))
+You can exclude it by checking that `__INTEL_COMPILER` is not defined.
+
+Clang also defines `_MSC_VER` and `_MSC_FULL_VER` when run as `clang-cl.exe` or when the target tuple ends in `-msvc`.  You can exclude it by checking that `__clang__` is not defined.
 
 ##### Example #####
 
