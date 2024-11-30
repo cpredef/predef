@@ -12,11 +12,13 @@ C94|`__STDC_VERSION__` = 199409L|ISO/IEC 9899-1:1994
 [C99](https://en.wikipedia.org/wiki/C99)|`__STDC_VERSION__` = 199901L|ISO/IEC 9899:1999
 [C11](https://en.wikipedia.org/wiki/C11_%28C_standard_revision%29)|`__STDC_VERSION__` = 201112L|ISO/IEC 9899:2011
 [C17](https://en.wikipedia.org/wiki/C18_%28C_standard_revision%29)|`__STDC_VERSION__` = 201710L|ISO/IEC 9899:2018
+[C23](https://en.wikipedia.org/wiki/C23_%28C_standard_revision%29)|`__STDC_VERSION__` = 202311L|ISO/IEC 9899:2024
 [C++98](https://www.open-std.org/jtc1/sc22/wg21/)|`__cplusplus` = 199711L|ISO/IEC 14882:1998
 [C++11](https://en.wikipedia.org/wiki/C%2B%2B11)|`__cplusplus` = 201103L|ISO/IEC 14882:2011
 [C++14](https://en.wikipedia.org/wiki/C%2B%2B14)|`__cplusplus` = 201402L|ISO/IEC 14882:2014
 [C++17](https://en.wikipedia.org/wiki/C%2B%2B17)|`__cplusplus` = 201703L|ISO/IEC 14882:2017
 [C++20](https://en.wikipedia.org/wiki/C%2B%2B20)|`__cplusplus` = 202002L|ISO/IEC 14882:2020
+[C++23](https://en.wikipedia.org/wiki/C%2B%2B23)|`__cplusplus` = 202302L|ISO/IEC 14882:2020
 [C++/CLI](https://web.archive.org/web/20160529152346/http://www.ecma-international.org/publications/standards/Ecma-372.htm)|`__cplusplus_cli` = 200406L|ECMA-372
 [DSP-C](https://web.archive.org/web/20070220061023/http://www.dsp-c.org/)| |ISO/IEC JTC1/SC22 WG14/N854
 [EC++](http://www.caravan.net/ec2plus/)|`__embedded_cplusplus`|Embedded C++
