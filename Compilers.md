@@ -893,6 +893,12 @@ Renesas C/C++|`__HITACHI_VERSION__`|`__RENESAS_VERSION__`
 8.0|0x8000|0x8000
 1.00.00| |0x01000000
 
+## [Saigo](https://chromium.googlesource.com/native_client/nacl-llvm-project-v10) ##
+
+Type|Macro
+---|---
+Identification|`__saigo__`
+
 ## [SAS/C](http://www.sas.com/products/sasc/) ##
 
 Type|Macro|Format|Description
