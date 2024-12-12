@@ -487,7 +487,7 @@ Identification|`pyr`
 
 Type|Macro|Format|Description
 ---|---|---|---
-Identification|`__QNX__`| |QNX 4.x
+Identification|`__QNX__`| |QNX 4.x, 7.x, 8.x
 Identification|`__QNXNTO__`| |QNX 6.x
 Version|`_NTO_VERSION`|VRR|V = Version<br/>RR = Revision<br/><br/>Only available when `__QNXNTO__` is defined.<br/><br/>Must be included from `<sys/neutrino.h>`
 Version|`BBNDK_VERSION_CURRENT`|VVRRRRPPPP|V = Version<br/>RRRR = Revision<br/>PPPP = Patch<br/><br/>Only available on [Blackberry 10](http://en.wikipedia.org/wiki/Blackberry_10)<br/><br/>From Blackberry 10.1.0<br/><br/>Must be included from `<bbndk.h>`
