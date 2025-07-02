@@ -51,7 +51,7 @@ Version|`__CRTL_VER`|VVRREPPTT|VV = Version<br/>RR = Revision<br/>E = Edit numbe
 
 Notice that I am not sure about the format of `__CRTL_VER`, but it seems to follow that of `__VMS_VER`.
 
-### z/OS libc ###
+### z/OS Language Environment ###
 
 Type|Macro|Format|Description
 ---|---|---|---
@@ -67,6 +67,28 @@ Library|`__LIBREL__`
 OS/390 2.10|0x220A0000
 z/OS 1.1|0x41010000
 z/OS 1.6|0x41060000
+
+### z/VM Language Environment
+
+Type|Macro|Format|Description
+---|---|---|---
+Version|`__LIBREL__`|
+Version|`__TARGET_LIB__`|
+
+##### Example #####
+OS|`__TARGET_LIB__`|`__LIBREL__`
+---|---|---
+z/VM 7.3|0x410C0000|0x47030000
+
+### VM/ESA Language Environment
+Type|Macro|Format|Description
+---|---|---|---
+Version|`__TARGET_LIB__`
+
+##### Example #####
+OS|`__TARGET_LIB__`
+---|---
+VM/ESA 2.4|0x11050000
 
 ### [Z88DK](https://en.wikipedia.org/wiki/Z88DK) C Library ###
 

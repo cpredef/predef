@@ -458,6 +458,34 @@ IBM z/OS XL C/C++|`__IBMC__`|`__COMPILER_VER__`
 ---|---|---
 2.3|42030|0x42030000
 
+## [IBM XL C/C++ for z/VM](https://www.ibm.com/products/xl-cpp-compiler-zvm)
+
+Type|Macro|Format|Description
+---|---|---|---
+Version|`__IBMC__`||C Compiler
+Version|`__IBMCPP__`||C++ Compiler
+Version|`__COMPILER_VER__`
+
+##### Example #####
+
+XL C/C++ for z/VM Version|`__IBMC__`|`__IBMCPP__`|`__COMPILER_VER__`
+---|---|---|---
+V1.3|41120|41120|0x410C0000
+
+## IBM C for VM/ESA
+
+Type|Macro|Format|Description
+---|---|---|---
+Version|`__IBMC__`|VRM|3-digit decimal number<br/>V = Version<br/>R = Release<br/>M = Modification
+Version|`__COMPILER_VER__`|
+
+##### Example #####
+
+Version|`__IBMC__`|`__COMPILER_VER__`
+---|---|---
+Version 3 Release 1 Modification 0|310|0x13010000
+
+
 ## [ImageCraft C](http://www.imagecraft.com/) ##
 
 Type|Macro
