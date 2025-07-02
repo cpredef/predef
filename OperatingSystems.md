@@ -715,10 +715,18 @@ Wind/U|`_WINDU_SOURCE`
 ---|---
 3.1.2|0x030102
 
-## [z/OS](http://en.wikipedia.org/wiki/Z/OS) ##
+## [MVS/ESA, OS/390 and z/OS](http://en.wikipedia.org/wiki/Z/OS) ##
 
 Type|Macro|Description
 ---|---|---
 Identification|`__MVS__`|Host
 Identification|`__HOS_MVS__`|Host
 Identification|`__TOS_MVS__`|Target
+
+## [VM/ESA and z/VM](https://en.wikipedia.org/wiki/VM_(operating_system)) ##
+
+Type|Macro|Description
+---|--|--
+Identification|`__VM__`|Host
+Identification|`__HOS_VM__`|Host
+Identification|`__TOS_VM__`|Target
