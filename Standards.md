@@ -69,12 +69,14 @@ POSIX.1b-1993|`_POSIX_VERSION` = 199309L|IEEE 1003.1b-1993
 POSIX.1-1996|`_POSIX_VERSION` = 199506L|IEEE 1003.1-1996
 POSIX.1-2001|`_POSIX_VERSION` = 200112L|IEEE 1003.1-2001
 [POSIX.1-2008](http://pubs.opengroup.org/onlinepubs/9699919799/)|`_POSIX_VERSION` = 200809L|IEEE 1003.1-2008
+[POSIX.1-2024](http://pubs.opengroup.org/onlinepubs/9799919799/)|`_POSIX_VERSION` = 202405L|IEEE 1003.1-2024
 XPG3|`_XOPEN_VERSION` = 3|X/Open Portability Guide 3 (1989)
 XPG4|`_XOPEN_VERSION` = 4|X/Open Portability Guide 4 (1992)
 SUS|`_XOPEN_VERSION` = 4 `&&` `_XOPEN_UNIX`|X/Open Single UNIX Specification (UNIX95)
 [SUSv2](https://pubs.opengroup.org/onlinepubs/7908799/toc.htm)|`_XOPEN_VERSION` = 500|X/Open Single UNIX Specification, Version 2 (UNIX98)
 [SUSv3](https://pubs.opengroup.org/onlinepubs/007904975/nfindex.html)|`_XOPEN_VERSION` = 600|Open Group Single UNIX Specification, Version 3 (UNIX03)
-[SUSv4](https://pubs.opengroup.org/onlinepubs/9699919799/)|`_XOPEN_VERSION` = 700|Open Group Single UNIX Specification, Version 4
+[SUSv4](https://pubs.opengroup.org/onlinepubs/9699919799/)|`_XOPEN_VERSION` = 700|Open Group Single UNIX Specification, Version 4 (UNIXV7)
+[SUSv5](https://pubs.opengroup.org/onlinepubs/9799919799/)|`_XOPEN_VERSION` = 800|Open Group Single UNIX Specification, Version 5 (UNIXV8)
 LSB|`__LSB_VERSION__` = VR|Linux Standards Base<br/><br/>V = Version<br/>R = Revision
 
 ##### Example: Unix Standards #####
