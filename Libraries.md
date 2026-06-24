@@ -150,7 +150,9 @@ One of the standard header files must be included before any of the following ma
 
 Type|Macro|Format|Description
 ---|---|---|---
-Version|`_LIBCPP_VERSION`|VRRR|V = Version<br>RRR = Revision
+Version|`_LIBCPP_VERSION`|VRPP|V = Version<br/>R = Revision<br/>PP = Patch<br/>Until LLVM 10.0.0
+Version|`_LIBCPP_VERSION`|VVRPP|VV = Version<br/>R = Revision<br/>PP = Patch<br/>From LLVM 10.0.0 until LLVM 16.0.0
+Version|`_LIBCPP_VERSION`|VVRRPP|VV = Version<br/>RR = Revision<br/>PP = Patch<br/>From LLVM 16.0.0
 Version|`_LIBCPP_ABI_VERSION`|V|V = ABI Version
 
 ## Other Libraries ##
