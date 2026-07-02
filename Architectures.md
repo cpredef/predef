@@ -246,6 +246,12 @@ R4400|`_MIPS_ISA_MIPS3`| |3|`__MIPS_ISA3__`
 R8000|`_MIPS_ISA_MIPS4`| |4|`__MIPS_ISA4__`
 R10000|`_MIPS_ISA_MIPS4`| |4|`__MIPS_ISA4__`
 
+## [Native Client](https://en.wikipedia.org/wiki/Google_Native_Client) ##
+
+Type|Macro|Description
+---|---|---
+Identification|`__native_client__`|Defined by NaCl GCC, PNaCl Clang and Saigo
+
 ## [NEC SX-Aurora TSUBASA](https://en.wikipedia.org/wiki/NEC_SX-Aurora_TSUBASA) ##
 
 Type|Macro|Description
@@ -256,9 +262,9 @@ Identification|`__NEC__`|Defined by NEC C/C++ Compiler and Clang
 
 ## [PNaCl](https://en.wikipedia.org/wiki/Google_Native_Client) ##
 
-Type|Macro
----|---
-Identification|`__pnacl__`
+Type|Macro|Description
+---|---|---
+Identification|`__pnacl__`|Defined by PNaCl Clang
 
 ## [PowerPC](http://en.wikipedia.org/wiki/PowerPC) ##
 
